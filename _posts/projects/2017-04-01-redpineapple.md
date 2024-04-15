@@ -4,10 +4,10 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "Jekyll, Pineapple"
+  keywords: "Local Orange"
 
 project:
-  title: "Red Pineapple"
+  title: "Local Orange"
   type: "Jekyll"
   url: "https://github.com/arnolds/pineapple"
   logo: "/assets/images/projects/redpineapple/logo.png"
@@ -16,7 +16,7 @@ project:
 agency:
   title: "Red Pineapple Co"
   url: "https://github.com/arnolds/pineapple"
-  year: "2017"
+  year: ""
 
 images:
   - image:
@@ -29,4 +29,6 @@ images:
     url: "/assets/images/projects/redpineapple/mobile.jpg"
     alt: "Red Pineapple website on a mobile device"
 ---
-<p>Pineapples are delicious tropical fruit. There are more than a hundred varieties of pineapples that grow in varying sizes. The plant is indigenous to South America and is said to originate from the area between southern Brazil and Paraguay.</p>
+<p>Most of my musical ventures are through the lens of "Local Orange", a post-punk/indie rock band heavily influenced by the palettes of progressive rock and jazz-fusion-tinged video game soundtracks. From concept to circulation, I have a hand in every step of the music process. All songs are written and originally performed by me, as well as engineered and produced by a small team comprising of me, other band members, and other close contacts. I've shared the stage with famous musicians and artists, notably Filter, Collective Soul, and Live.
+
+See the sidebar to listen for yourself, from released songs on streaming to unreleased live staples and performance videos on YouTube.</p>
