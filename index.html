@@ -14,13 +14,16 @@
 	<main class="content">
 		<section class="intro">
 			<div class="container">
-				<h2>About me.</h2>
-				<p>{{ site.description }}</p>
+				<div class="intro-container">
+				<h2>About me.</h2>	
+				<p style="margin-top: 12px;">{{ site.description }}</p>
+				<img src="/assets/images/otter.jpeg" alt="Colby's Picture">
 			</div>
+		</div>
 		</section>
 		<section class="projects">
 			<div class="container">
-				<h2>Projects I have worked on.</h2>
+				<h2 style="margin-bottom: 12px;">Projects I have worked on.</h2>
 				<ul class="projects-list">
 					{% for item in site.categories.projects reversed %}
 						<li>

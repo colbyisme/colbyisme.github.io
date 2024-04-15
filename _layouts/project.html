@@ -20,15 +20,54 @@
 					<span class="h2">Info</span>
 					{{ page.content }}
 					<div class="project-meta">
-						<span class="h2">Notable Projects</span>
-						<p><a title="{{ page.agency.title }}" href="{{ page.agency.url }}" target="_blank" rel="nofollow">{{ page.agency.title }}</a></p>
+						{% if page.achievements%}
+						<span class="h2">Notable Projects & Achievements</span>
+						<ul>
+							{% for achievement in page.achievements %}
+							<li>
+									<p>{{ achievement.title }}</p>
+								{% endfor %}
+							</li>
+						</ul>
+						{% endif %}
 					</div>
 				</article>
 				<aside>
 					<ul>
+						{% for link in page.links %}
+							<a href="{{ link.url | prepend: site.baseurl }}">
+								<li class="link-container" style="margin-bottom: 4px;">
+									<div class="image-link">
+										<img src="{{ link.img | prepend: site.baseurl }}"/>
+									</div>
+									<h3 class="text-link">{{ link.text }}</h3>
+								</li>
+							</a>
+						{% endfor %}	
+					</ul>
+					{% for embed in page.embeds %}
+					<ul>
+						<li>
+							<div class ="iframe-cont">
+							<iframe class="scaled-iframe" width="{{embed.width}}" height="{{embed.height}}" src="{{embed.url}}" title="{{embed.title}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						</div>
+								<figcaption>
+									{% if embed.cap != blank %}
+										{{ embed.cap }}
+									{% endif %}
+								</figcaption>
+						</li>
+					</ul>
+					{% endfor %}
+					<ul>
 						{% for image in page.images %}
 						<li>
 							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+							<figcaption>
+								{% if image.cap != blank %}
+									{{ image.cap }}
+								{% endif %}
+							</figcaption>
 						</li>
 						{% endfor %}
 					</ul>
