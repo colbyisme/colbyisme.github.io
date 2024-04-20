@@ -82,7 +82,10 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: center;
+
+	// todo background?
 }
+
 .projects-list {
 	@media (min-width: $breakpoint-small) {
 		margin-left: -1.5rem;
