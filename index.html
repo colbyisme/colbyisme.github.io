@@ -11,19 +11,22 @@
 </head>
 <body>
 	{% include header.html %}
-	<main class="content">
+	<main class="content-home">
 		<section class="intro">
 			<div class="container">
-				<div class="intro-container">
 				<h2>About me.</h2>	
+				<div class="intro-container">
 				<p style="margin-top: 12px;">{{ site.description }}</p>
 				<img src="/assets/images/otter.jpeg" alt="Colby's Picture">
 			</div>
 		</div>
+		</div>
 		</section>
+		&nbsp;
 		<section class="projects">
 			<div class="container">
 				<h2 style="margin-bottom: 12px;">Projects I have worked on.</h2>
+				&nbsp;
 				<ul class="projects-list">
 					{% for item in site.categories.projects reversed %}
 						<li>

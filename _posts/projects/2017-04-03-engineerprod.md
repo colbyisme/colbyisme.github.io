@@ -49,9 +49,15 @@ embeds:
     height: 120px
     url: "https://bandcamp.com/EmbeddedPlayer/track=2403838616/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/transparent=true/"
     cap: "Local Orange's latest single, produced and engineered by Colby Frashure and Max Wolfe."
+  - embed:
+    title: "Twiggy (Live Basement Session)"
+    width: "752"
+    height: "423"
+    url: "https://www.youtube.com/embed/EkB_OtVFv_I"
+    cap: "Local Orange \"live basement session\" engineered and produced by me, showing flexibility in a suboptimal recording environment."
 
 ---
-<p>I've helped record other bands along with my own music. I am proficient in a variety of digital audio workstations (DAWs), from contemporary standards like Pro Tools and Logic Pro to more archaic tools such as tracker software. I also have a strong understanding of basic and advanced audio processing tools (compression, EQ, reverb, etc.), and engineering techniques (microphones and mic placement, phase, etc.) I have experience recording vocals, drums, bass, guitar, syntheziers, and saxophone. </p>
+<p>I've helped record other bands along with my own music. I am proficient in a variety of digital audio workstations (DAWs), from contemporary standards like Pro Tools and Logic Pro to more archaic tools such as tracker software. I also have a strong understanding of basic and advanced audio processing tools (compression, EQ, routing, etc.), and engineering techniques (microphones and mic placement, phase, etc.) I have experience recording vocals, drums, bass, guitar, syntheziers, and saxophone. </p>
 &nbsp;
 <p>
 I started honing my ear for audio production during my last 2 years of high school as the primary music technician, responsible for micing up actors and ensuring the highest fidelity sound in a fast-paced, dynamic environment. I was also a live DJ on WVUD at the University of Delaware, and am currently a member of WMBC at UMBC.</p>
