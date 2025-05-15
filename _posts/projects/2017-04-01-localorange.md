@@ -21,7 +21,7 @@ achievements:
   - achievement:
     title: "Opener for Let's Go! Festival 2023, playing for a crowd of 400+ people."
   - achievement:
-    title:  "Currently planning an east coast tour as part of a EP release."
+    title:  "Released our debut EP in Janurary."
 
 images:
   - image:
