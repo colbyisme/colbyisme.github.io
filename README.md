@@ -1,4 +1,4 @@
 # Personal music website & portfolio.
 Credits:
 - Colby Frashure: Creator/Programmer
-- arnolds: Pineapple Theme (Licensed under MIT, see LICENSE.md)
+- CSS modified from Pineapple Theme by arnolds, Licensed under MIT (See LICENSE.md).
